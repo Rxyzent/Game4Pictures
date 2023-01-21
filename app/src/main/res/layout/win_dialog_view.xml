@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="300dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/congratulations"
+        android:layout_height="75dp" />
+
+    <Button
+        android:id="@+id/finish_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/win_btn"
+        android:textColor="@color/white"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="25dp"
+        style="@style/FontMagic"
+        android:text="finish"
+        android:textSize="20sp"
+        android:layout_gravity="bottom|start"/>
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/win_btn"
+        android:textColor="@color/white"
+        style="@style/FontMagic"
+        android:text="next"
+        android:textSize="20sp"
+        android:layout_gravity="bottom|end"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/coins"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/delta_coin_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/gold2"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        tools:text="+5"/>
+
+
+</FrameLayout>
